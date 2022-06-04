@@ -3,8 +3,8 @@ import React from "react";
 function Filler() {
   return(
     <React.Fragment>
-        <div>
-            Filler
+        <div className="">
+          <h1>Filler</h1>
         </div>
     </React.Fragment>
   );
