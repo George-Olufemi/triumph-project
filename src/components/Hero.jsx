@@ -15,7 +15,7 @@ function Hero() {
                                     autoStart: true,
                                     loop: true,
                                     delay: 150,
-                                    strings: ["Figma", "Sketch", "Adobe XD", "Webflow", "Craft", "Axure", "and more..."]
+                                    strings: ["Figma", "Sketch", "Adobe XD", "Webflow", "Proto.io", "Axure", "and more..."]
                                 }}
                             />
                     </h1>
