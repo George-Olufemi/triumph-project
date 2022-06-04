@@ -1,22 +1,17 @@
-import './App.css';
+import React from 'react';
+import Hero from './components/Hero';
+import Body from './components/Body';
+import Filler from './components/Filler';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link underline"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <div>
+        <Hero />
+        <Body />
+        <Filler />
+      </div>
+    </React.Fragment>
   );
 }
 
