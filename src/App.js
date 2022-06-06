@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from './components/Hero';
 import Body from './components/Body';
 import Filler from './components/Filler';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Hero />
         <Body />
         <Filler />
+        <Footer />
       </div>
     </React.Fragment>
   );

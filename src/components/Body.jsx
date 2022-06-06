@@ -142,6 +142,11 @@ return(
                 animate={{ opacity: 1, y: 0}}
                 transition={{ delay: 7.6, duration: 10, type: 'spring', stiffness: 200 }}
             >E</motion.span>
+            <motion.span
+                initial={{ opacity: 0, y: -500 }}
+                animate={{ opacity: 1, y: 0}}
+                transition={{ delay: 7.9, duration: 10, type: 'spring', stiffness: 200 }}
+            >.</motion.span>
             </h1>
                 <div class="md:grid md:gap-10 md:grid-cols-4 md:pb-44 md:pt-20 md:pl-40 px-32">
                     <div 
@@ -152,7 +157,7 @@ return(
                     >
                         <img className='pb-5 pl-3 md:pl-12' src={design} alt="code" />
                         <h1 className="pb-3 text-lg font-semibold pl-3 text-center">LEARN APP DESIGN</h1>
-                        <h1 className="pb-10 text-lg font-light text-center">You'll be able to code fluently in React.js or Next.js and be able to start building your own Web Apps.</h1>
+                        <h1 className="pb-10 text-lg font-light text-center">You'll be able to design fluently and be able to start Designing for Apps.</h1>
                     </div>
                     <div 
                         className="" 
@@ -171,8 +176,8 @@ return(
                         data-aos-duration="3000"
                     >
                         <img className='pb-5 pl-3 md:pl-12' src={develop} alt="develop" />
-                        <h1 className="pb-3 text-lg font-semibold text-center">BUILD WEB APPS</h1>
-                        <h1 className="pb-10 text-lg font-light text-center">You'll be taught how to deploy your Websites and start your web Businesses.</h1>
+                        <h1 className="pb-3 text-lg font-semibold text-center">DESIGN ANIMATIONS</h1>
+                        <h1 className="pb-10 text-lg font-light text-center">You'll be taught how to brng your design to life with Animations.</h1>
                     </div>
                     <div 
                         className="" 
@@ -182,7 +187,7 @@ return(
                     >
                         <img className='pb-5 pl-3 md:pl-12' src={cert} alt="cert" />
                         <h1 className="pb-3 text-lg font-semibold text-center">GET CERTIFIED</h1>
-                        <h1 className="pb-7 text-lg font-light text-center md:text-left">You'll get Certified in Web Development so you can get recognition for your new sills.</h1>
+                        <h1 className="pb-7 text-lg font-light text-center">You'll get Certified in Designing and Design Animation so you can get recognition for your new skills.</h1>
                     </div>
                 </div>
         </div>
